@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/Header";
 import { Button } from "../components/Button";
 
- const Second = () => {
+ export const Second = () => {
   return (
     <div className="container">
       <Header headerText="Это вторая страница" headerType="h2" /> 
@@ -22,7 +22,7 @@ import { Button } from "../components/Button";
       </section>
 
       <section className="button-section">
-        <Button  buttonText="Далее"/>
+        <Button  buttonText="Далее" navigateTo="/third" />
       </section>
     </div>
   );

@@ -23,7 +23,7 @@ export const Fourth = () => {
       </section>
 
       <section className="button-section">
-        <Button buttonText="Далее"/>
+        <Button buttonText="Далее" navigateTo="/fifth"/>
       </section>
     </div>
   );

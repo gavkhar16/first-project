@@ -23,10 +23,10 @@ export const First = () => {
       </section>
 
       <section className="button-section">
-        <Button buttonText="Далее"/>
+        <Button buttonText="Далее" navigateTo="/second" />
       </section>
     </div>
   );
 };
 
-export default First
+export default First;
